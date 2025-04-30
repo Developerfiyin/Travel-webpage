@@ -62,7 +62,7 @@ body {
 }
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url();
+  background-image: url("equipments/favicon.png");
   background-position: top center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -77,11 +77,15 @@ nav {
   z-index: 9;
 }
 
-nav__header {
+.nav__header {
   padding: 1rem;
   width: 100%;
   display: flex;
   align-items: center;
   background-color: var(--text-dark);
   justify-content: space-between;
+}
+
+.nav__logo .logo {
+  color: var(--white);
 }
