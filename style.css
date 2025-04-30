@@ -42,3 +42,13 @@
 .logo span {
   color: var(--primary-color);
 }
+
+img {
+  display: flex;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
