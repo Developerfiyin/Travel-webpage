@@ -95,3 +95,20 @@ nav {
   color: var(--white);
   cursor: pointer;
 }
+
+.nav__links {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: var(--text-dark);
+  transition: 0.5s;
+  z-index: -1;
+}
