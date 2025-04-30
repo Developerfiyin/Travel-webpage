@@ -76,3 +76,12 @@ nav {
   margin-inline: auto;
   z-index: 9;
 }
+
+nav__header {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: var(--text-dark);
+  justify-content: space-between;
+}
