@@ -52,3 +52,16 @@ a {
   text-decoration: none;
   transition: 0.3s;
 }
+
+ul {
+  list-style: none;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url();
+  background-position: top center;
+}
