@@ -111,4 +111,15 @@ nav {
   background-color: var(--text-dark);
   transition: 0.5s;
   z-index: -1;
+  /*transform: translateY(-100%);*/
+}
+
+.nav__links.open {
+  transform: translateY(0);
+}
+
+.nav__links a {
+  font-weight: 500;
+  color: var(--white);
+  white-space: nowrap;
 }
