@@ -145,6 +145,14 @@ nav {
   color: var(--primary-color);
 }
 
+.header__content h1 {
+  margin-bottom: 1rem;
+  font-size: 4.75rem;
+  font-weight: 500;
+  line-height: 5.5rem;
+  color: var(--text-dark);
+  text-align: center;
+}
 @media (width > 768px) {
   nav {
     position: static;
