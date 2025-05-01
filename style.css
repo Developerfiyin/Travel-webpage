@@ -148,4 +148,8 @@ nav {
   .nav__logo .logo {
     color: var(--text-dark);
   }
+
+  .nav__menu__btn {
+    display: none;
+  }
 }
