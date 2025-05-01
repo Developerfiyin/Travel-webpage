@@ -140,6 +140,11 @@ nav {
   margin-inline: auto;
 }
 
+.header__content .section__subheader {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+
 @media (width > 768px) {
   nav {
     position: static;
