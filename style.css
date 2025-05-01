@@ -130,6 +130,11 @@ nav {
   color: var(--primary-color);
 }
 
+.header__container {
+  display: flex;
+  gap: 2rem;
+}
+
 @media (width > 768px) {
   nav {
     position: static;
