@@ -131,8 +131,13 @@ nav {
 }
 
 .header__container {
-  display: flex;
+  display: grid;
   gap: 2rem;
+}
+
+.header__image img {
+  max-width: 550px;
+  margin-inline: auto;
 }
 
 @media (width > 768px) {
