@@ -152,4 +152,13 @@ nav {
   .nav__menu__btn {
     display: none;
   }
+  .nav__links {
+    position: static;
+    padding: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 4rem;
+    background-color: transparent;
+    transform: none;
+  }
 }
