@@ -140,4 +140,12 @@ nav {
     justify-content: space-between;
     gap: 2rem;
   }
+  .nav__header {
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .nav__logo .logo {
+    color: var(--text-dark);
+  }
 }
