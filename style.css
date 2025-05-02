@@ -234,9 +234,11 @@ nav {
     background-color: transparent;
     transform: none;
   }
+
   .nav__links a {
     color: var(--text-dark);
   }
+
   .header__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -244,5 +246,13 @@ nav {
 
   .header__image {
     grid-area: 1/2/2/3;
+  }
+
+  .header__content :is(.section__subheader, h1, p) {
+    text-align: left;
+  }
+
+  .header__btns {
+    justify-content: right;
   }
 }
