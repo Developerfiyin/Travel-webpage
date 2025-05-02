@@ -151,6 +151,14 @@ nav {
   color: var(--text-light);
   text-align: center;
 }
+
+.header__btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
 .header__content h1 {
   margin-bottom: 1rem;
   font-size: 4.75rem;
@@ -159,6 +167,7 @@ nav {
   color: var(--text-dark);
   text-align: center;
 }
+
 @media (width > 768px) {
   nav {
     position: static;
@@ -169,6 +178,7 @@ nav {
     justify-content: space-between;
     gap: 2rem;
   }
+
   .nav__header {
     padding: 0;
     background-color: transparent;
