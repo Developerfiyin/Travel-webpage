@@ -202,6 +202,11 @@ nav {
   border-radius: 100%;
 }
 
+.service__grid {
+  margin-top: 4rem;
+  display: flex;
+}
+
 @media (width > 768px) {
   nav {
     position: static;
