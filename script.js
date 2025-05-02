@@ -30,9 +30,9 @@ scrollReveal().reveal(".header__content .section__subheader", {
   delay: 500,
 });
 
-scrollReveal().reveal(".header__content .section__subheader", {
+scrollReveal().reveal(".header__content h1", {
   ...scrollRevealOption,
-  delay: 500,
+  delay: 1000,
 });
 
 scrollReveal().reveal(".header__content .section__subheader", {
