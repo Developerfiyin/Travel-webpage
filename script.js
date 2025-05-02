@@ -24,3 +24,8 @@ scrollReveal().reveal(".header__image img", {
   ...scrollRevealOption,
   origin: "right",
 });
+
+scrollReveal().reveal(".header__content .section__subheader", {
+  ...scrollRevealOption,
+  delay: 500,
+});
