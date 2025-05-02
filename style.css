@@ -179,6 +179,7 @@ nav {
   box-shadow: 2px 2px 20px rgba(241, 165, 1, 0.5);
   cursor: pointer;
 }
+
 .header__btns a {
   display: flex;
   align-items: center;
@@ -187,6 +188,9 @@ nav {
   font-weight: 500;
   color: var(--text-light);
   transition: 0.3s;
+}
+.header__btns a:hover {
+  color: var(--text-dark);
 }
 
 @media (width > 768px) {
