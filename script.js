@@ -39,7 +39,7 @@ scrollReveal().reveal(".header__content .section__subheader", {
   ...scrollRevealOption,
   delay: 500,
 });
-scrollReveal().reveal(".header__content .section__subheader", {
+scrollReveal().reveal(".header__btns", {
   ...scrollRevealOption,
-  delay: 500,
+  delay: 2000,
 });
