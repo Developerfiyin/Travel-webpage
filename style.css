@@ -64,7 +64,7 @@ body {
 }
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url("equipments/favicon.png");
+  background-image: url("equipments/header-bg.png");
   background-position: top center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -236,5 +236,13 @@ nav {
   }
   .nav__links a {
     color: var(--text-dark);
+  }
+  .header__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .header__image {
+    grid-area: 1/2/2/3;
   }
 }
