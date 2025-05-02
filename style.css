@@ -204,7 +204,15 @@ nav {
 
 .service__grid {
   margin-top: 4rem;
-  display: flex;
+  display: grid;
+  gap: 1rem;
+}
+
+.service__card {
+  padding: 2rem 1rem;
+  text-align: center;
+  border-radius: 2rem;
+  transition: 0.3s;
 }
 
 @media (width > 768px) {
