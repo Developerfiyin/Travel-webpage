@@ -237,10 +237,17 @@ nav {
   color: var(--text-light);
 }
 /* DESTINATION STYLING*/
+
 .destination__grid {
   margin-top: 4rem;
   display: grid;
   gap: 1rem;
+}
+
+.destination__card {
+  border-radius: 2rem;
+  overflow: hidden;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 @media (width > 540px) {
