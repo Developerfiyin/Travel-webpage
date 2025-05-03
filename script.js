@@ -44,3 +44,8 @@ scrollReveal().reveal(".header__btns", {
   ...scrollRevealOption,
   delay: 2000,
 });
+
+scrollReveal().reveal(".service__card", {
+  duration: 1000,
+  interval: 500,
+});
