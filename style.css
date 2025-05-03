@@ -250,6 +250,10 @@ nav {
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
 }
 
+.destination__details {
+  padding: 1rem 1.5rem;
+}
+
 @media (width > 540px) {
   .service__grid {
     grid-template-columns: repeat(2, 1fr);
