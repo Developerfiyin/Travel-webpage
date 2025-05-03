@@ -232,6 +232,10 @@ nav {
   color: var(--text-dark);
 }
 
+.service__card p {
+  color: var(--text-light);
+}
+
 @media (width > 768px) {
   nav {
     position: static;
