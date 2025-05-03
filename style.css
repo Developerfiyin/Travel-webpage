@@ -305,4 +305,8 @@ nav {
   .service__grid {
     gap: 2rem;
   }
+
+  .service__card {
+    padding: 2rem;
+  }
 }
