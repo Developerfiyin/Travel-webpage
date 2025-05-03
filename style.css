@@ -287,6 +287,10 @@ nav {
   .service__grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .destination__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (width > 768px) {
@@ -340,11 +344,15 @@ nav {
   }
 
   .header__btns {
-    justify-content: right;
+    justify-content: flex-start;
   }
 
   .service__grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .destination__grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -355,5 +363,9 @@ nav {
 
   .service__card {
     padding: 2rem;
+  }
+
+  .destination__grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
