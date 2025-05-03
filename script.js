@@ -49,3 +49,8 @@ scrollReveal().reveal(".service__card", {
   duration: 1000,
   interval: 500,
 });
+
+scrollReveal().reveal(".destination__card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
