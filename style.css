@@ -221,8 +221,15 @@ nav {
 
 .service__card img {
   margin-bottom: 2rem;
-  max-width: 600px;
+  max-width: 60px;
   margin-inline: auto;
+}
+
+.service__card h4 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-dark);
 }
 
 @media (width > 768px) {
