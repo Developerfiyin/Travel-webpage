@@ -268,6 +268,15 @@ nav {
   color: var(--text-light);
 }
 
+.destination__details p {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 600;
+  color: var(--text-light);
+}
+
 @media (width > 540px) {
   .service__grid {
     grid-template-columns: repeat(2, 1fr);
