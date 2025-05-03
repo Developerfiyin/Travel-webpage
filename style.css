@@ -212,10 +212,10 @@ nav {
   padding: 2rem 1rem;
   text-align: center;
   border-radius: 2rem;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
-.service__card a:hover {
+.service__card:hover {
   box-shadow: 10px 10px 30px rgba(241, 165, 1, 0.5);
 }
 
@@ -294,5 +294,15 @@ nav {
 
   .header__btns {
     justify-content: right;
+  }
+
+  .service__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width > 1024px) {
+  .service__grid {
+    gap: 2rem;
   }
 }
