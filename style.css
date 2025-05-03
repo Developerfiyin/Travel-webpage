@@ -280,7 +280,7 @@ nav {
 .destination__details p span {
   font-size: 1.25rem;
   color: var(--text-dark);
-  transform: rotateY(180deg);
+  transform: rotateY(360deg);
 }
 
 @media (width > 540px) {
@@ -366,6 +366,6 @@ nav {
   }
 
   .destination__grid {
-    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
   }
 }
