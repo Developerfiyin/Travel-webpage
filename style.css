@@ -282,6 +282,12 @@ nav {
   color: var(--text-dark);
   transform: rotateY(360deg);
 }
+/* TRIP CONTAINER */
+
+.trip__container {
+  display: grid;
+  gap: 2rem;
+}
 
 @media (width > 540px) {
   .service__grid {
