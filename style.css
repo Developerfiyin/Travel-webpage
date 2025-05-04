@@ -289,6 +289,15 @@ nav {
   gap: 2rem;
 }
 
+.trip__image img {
+  max-width: 425px;
+  margin-inline: auto;
+}
+
+.trip__list {
+  list-style: none;
+}
+
 @media (width > 540px) {
   .service__grid {
     grid-template-columns: repeat(2, 1fr);
