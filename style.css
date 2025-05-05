@@ -372,6 +372,11 @@ nav {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
+.client__card__content p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
+
 @media (width > 540px) {
   .service__grid {
     grid-template-columns: repeat(2, 1fr);
