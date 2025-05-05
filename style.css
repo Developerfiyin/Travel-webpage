@@ -366,6 +366,12 @@ nav {
   border-radius: 100%;
 }
 
+.client__card__container {
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
 @media (width > 540px) {
   .service__grid {
     grid-template-columns: repeat(2, 1fr);
