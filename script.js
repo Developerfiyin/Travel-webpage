@@ -54,3 +54,23 @@ scrollReveal().reveal(".destination__card", {
   ...scrollRevealOption,
   interval: 500,
 });
+
+scrollReveal().reveal(".header__image img", {
+  ...scrollRevealOption,
+  origin: "right",
+});
+
+scrollReveal().reveal(".header__content .section__subheader", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+scrollReveal().reveal(".header__content h1", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+
+scrollReveal().reveal(".header__content p", {
+  ...scrollRevealOption,
+  delay: 1500,
+});
