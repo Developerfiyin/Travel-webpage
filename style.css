@@ -359,6 +359,13 @@ nav {
   padding-inline: 3rem 1rem;
 }
 
+.client__card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 100%;
+}
+
 @media (width > 540px) {
   .service__grid {
     grid-template-columns: repeat(2, 1fr);
