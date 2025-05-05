@@ -344,6 +344,14 @@ nav {
   gap: 2rem 4rem;
 }
 
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  height: auto !important;
+}
+
 @media (width > 540px) {
   .service__grid {
     grid-template-columns: repeat(2, 1fr);
