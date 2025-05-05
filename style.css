@@ -336,6 +336,14 @@ nav {
   color: var(--text-light);
 }
 
+/*  CLIENT CONTAINER*/
+
+.client__containerr {
+  padding-bottom: 3rem;
+  display: grid;
+  gap: 2rem 4rem;
+}
+
 @media (width > 540px) {
   .service__grid {
     grid-template-columns: repeat(2, 1fr);
