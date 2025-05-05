@@ -382,6 +382,11 @@ nav {
   font-weight: 600;
   color: var(--text-dark);
 }
+.client__card__content h5 {
+  color: var(--text-light);
+  font-size: 1rem;
+  font-weight: 500;
+}
 
 @media (width > 540px) {
   .service__grid {
