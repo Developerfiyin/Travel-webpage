@@ -55,22 +55,23 @@ scrollReveal().reveal(".destination__card", {
   interval: 500,
 });
 
-scrollReveal().reveal(".header__image img", {
+scrollReveal().reveal(".trip__image img", {
   ...scrollRevealOption,
   origin: "right",
 });
 
-scrollReveal().reveal(".header__content .section__subheader", {
+scrollReveal().reveal(".trip__content .section__subheader", {
   ...scrollRevealOption,
   delay: 500,
 });
 
-scrollReveal().reveal(".header__content h1", {
+scrollReveal().reveal(".trip__content .section__header", {
   ...scrollRevealOption,
   delay: 1000,
 });
 
-scrollReveal().reveal(".header__content p", {
+scrollReveal().reveal(".trip__list li", {
   ...scrollRevealOption,
   delay: 1500,
+  interval: 500,
 });
