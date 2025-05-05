@@ -307,8 +307,14 @@ nav {
   gap: 1rem;
 }
 
-.trip__list span {
+.trip__list li span {
+  font-size: 1.75rem;
+  color: var(--white);
+  border-radius: 1rem;
   padding: 8px 15px;
+}
+
+.trip__list li:nth-child(1) span {
 }
 
 @media (width > 540px) {
