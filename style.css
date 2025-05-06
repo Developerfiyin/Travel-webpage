@@ -364,9 +364,10 @@ nav {
   top: 0;
   left: 0;
   border-radius: 100%;
+  max-width: 80px;
 }
 
-.client__card__container {
+.client__card__content {
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);

@@ -85,4 +85,8 @@ scrollReveal().reveal(".client__list li", {
   delay: 500,
 });
 
-const swiper = new Swiper(".swiper", {});
+const swiper = new Swiper(".swiper", {
+  direction: "vertical",
+  autoHeight: true,
+  slidesPerview: 1,
+});
