@@ -421,6 +421,13 @@ nav {
   color: var(--text-light);
 }
 
+.footer__socials {
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 @media (width > 540px) {
   .service__grid {
     grid-template-columns: repeat(2, 1fr);
