@@ -436,6 +436,18 @@ nav {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
+.footer__socials a:hover {
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+
+.footer__col h5 {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-light);
+}
+
 @media (width > 540px) {
   .service__grid {
     grid-template-columns: repeat(2, 1fr);
