@@ -472,6 +472,14 @@ nav {
   .trip__content :is(.section__subheader, .section__header) {
     text-align: left;
   }
+
+  .client__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .client__content :is(.section__subheader, .section__header) {
+    text-align: left;
+  }
 }
 
 @media (width > 1024px) {
