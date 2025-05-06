@@ -389,6 +389,13 @@ nav {
   font-weight: 500;
 }
 
+.footer__col h4 {
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
 @media (width > 540px) {
   .service__grid {
     grid-template-columns: repeat(2, 1fr);
