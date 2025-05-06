@@ -566,7 +566,7 @@ nav {
   }
 
   .footer__container {
-    grid-template-columns: repeat(4, ifr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .footer__col:nth-child(4) {
