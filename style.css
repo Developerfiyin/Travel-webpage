@@ -388,11 +388,22 @@ nav {
   font-size: 1rem;
   font-weight: 500;
 }
+/* FOOTER CONTAINER STYLING */
 
 .footer__links {
   display: grid;
   gap: 1rem;
 }
+
+.footer__links a {
+  font-weight: 500;
+  color: var(--text-light);
+}
+
+.footer__links a:hover {
+  color: var(--primary-color);
+}
+
 .footer__col h4 {
   color: var(--text-dark);
   margin-bottom: 1.5rem;
