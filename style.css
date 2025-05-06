@@ -564,6 +564,14 @@ nav {
   .client__content :is(.section__subheader, .section__header) {
     text-align: left;
   }
+
+  .footer__container {
+    grid-template-columns: repeat(4, ifr);
+  }
+
+  .footer__col:nth-child(4) {
+    grid-area: unset;
+  }
 }
 
 @media (width > 1024px) {
