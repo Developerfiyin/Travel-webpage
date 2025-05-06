@@ -75,3 +75,14 @@ scrollReveal().reveal(".trip__list li", {
   delay: 1500,
   interval: 500,
 });
+
+scrollReveal().reveal(".client__content .section__header", {
+  ...scrollRevealOption,
+});
+
+scrollReveal().reveal(".client__list li", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+const swiper = new Swiper(".swiper", {});
