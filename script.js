@@ -76,11 +76,11 @@ ScrollReveal().reveal(".trip__list li", {
   interval: 500,
 });
 
-ScrollReveal().reveal(".client__content .section__header", {
+ScrollReveal().reveal(".client__content .section__subheader", {
   ...scrollRevealOption,
 });
 
-ScrollReveal().reveal(".client__list li", {
+ScrollReveal().reveal(".client__content .section__header", {
   ...scrollRevealOption,
   delay: 500,
 });
