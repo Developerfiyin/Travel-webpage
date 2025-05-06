@@ -389,6 +389,10 @@ nav {
   font-weight: 500;
 }
 
+.footer__links {
+  display: grid;
+  gap: 1rem;
+}
 .footer__col h4 {
   color: var(--text-dark);
   margin-bottom: 1.5rem;
