@@ -405,6 +405,11 @@ nav {
   gap: 2rem;
 }
 
+.footer__col p {
+  margin-top: 1rem;
+  color: var(--text-light);
+}
+
 @media (width > 540px) {
   .service__grid {
     grid-template-columns: repeat(2, 1fr);
