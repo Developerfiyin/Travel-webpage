@@ -20,67 +20,67 @@ const scrollRevealOption = {
   duration: 1000,
 };
 
-scrollReveal().reveal(".header__image img", {
+ScrollReveal().reveal(".header__image img", {
   ...scrollRevealOption,
   origin: "right",
 });
 
-scrollReveal().reveal(".header__content .section__subheader", {
+ScrollReveal().reveal(".header__content .section__subheader", {
   ...scrollRevealOption,
   delay: 500,
 });
 
-scrollReveal().reveal(".header__content h1", {
+ScrollReveal().reveal(".header__content h1", {
   ...scrollRevealOption,
   delay: 1000,
 });
 
-scrollReveal().reveal(".header__content p", {
+ScrollReveal().reveal(".header__content p", {
   ...scrollRevealOption,
   delay: 1500,
 });
 
-scrollReveal().reveal(".header__btns", {
+ScrollReveal().reveal(".header__btns", {
   ...scrollRevealOption,
   delay: 2000,
 });
 
-scrollReveal().reveal(".service__card", {
+ScrollReveal().reveal(".service__card", {
   duration: 1000,
   interval: 500,
 });
 
-scrollReveal().reveal(".destination__card", {
+ScrollReveal().reveal(".destination__card", {
   ...scrollRevealOption,
   interval: 500,
 });
 
-scrollReveal().reveal(".trip__image img", {
+ScrollReveal().reveal(".trip__image img", {
   ...scrollRevealOption,
   origin: "right",
 });
 
-scrollReveal().reveal(".trip__content .section__subheader", {
+ScrollReveal().reveal(".trip__content .section__subheader", {
   ...scrollRevealOption,
   delay: 500,
 });
 
-scrollReveal().reveal(".trip__content .section__header", {
+ScrollReveal().reveal(".trip__content .section__header", {
   ...scrollRevealOption,
   delay: 1000,
 });
 
-scrollReveal().reveal(".trip__list li", {
+ScrollReveal().reveal(".trip__list li", {
   ...scrollRevealOption,
   delay: 1500,
   interval: 500,
 });
 
-scrollReveal().reveal(".client__content .section__header", {
+ScrollReveal().reveal(".client__content .section__header", {
   ...scrollRevealOption,
 });
 
-scrollReveal().reveal(".client__list li", {
+ScrollReveal().reveal(".client__list li", {
   ...scrollRevealOption,
   delay: 500,
 });
@@ -88,5 +88,5 @@ scrollReveal().reveal(".client__list li", {
 const swiper = new Swiper(".swiper", {
   direction: "vertical",
   autoHeight: true,
-  slidesPerview: 1,
+  slidesPerView: 1,
 });
